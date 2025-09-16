@@ -5,7 +5,8 @@
 Please save files as follows:
 
 ```
-Homework/Practical
-  Month
-    Date
+webdevgroup
+>Homework/Practical
+>>Current month
+>>>Current date
 ```
