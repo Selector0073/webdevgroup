@@ -4,12 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
-    <title>Тема сайту</title>
+    <title>Сторінка з меню навігації</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+
+        } 
+
+        nav a {
+            padding: 10px 15px;
+            text-decoration: none;
+            color: #000;
+        }
+
+        nav a:focus {
+            outline: 3px solid #e0f0ff;
+            background: #e0f0ff;
+        }
+
+        header, nav, main, footer {
+            padding: 15px;
+        }
+    </style>
 </head>
 <body>
-    
 
-    
-    Selector0073 | Каріна Батура | Катя Каташинська <!--Каріна Батура помісти це у тег footer-->
+    <header> 
+        <h1> Сайт команди</h1>
+    </header>
+
+    <nav aria-label="Головне меню">
+        <a href="#about">Про нас</a>
+        <a href="#news">Новини</a>
+        <a href="#gallery">Галерея</a>
+        <a href="#contacts">Контакти</a>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>Про нас</h2>
+            <article>
+            <h3>Хто ми?</h3>
+                <p>Ми коианда студентів, які працюють над навчальним проєктом.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        Selector0073 | Каріна Батура | Катя Каташинська
+    </footer>
+
 </body>
 </html>
