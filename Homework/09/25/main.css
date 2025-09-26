@@ -24,3 +24,19 @@ h1 {
     text-align: center;
     margin-top: 20px;
 }
+
+/*Karina*/
+nav a {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:focus {
+    outline: 3px solid #0d1721;
+    background: #0d1721;
+}
+
+header, nav, main {
+    padding: 15px;
+}
