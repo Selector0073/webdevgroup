@@ -27,7 +27,6 @@ body {
 
 main {
     flex: 1;
-    padding-left: 5px;
 }
 
 ::selection { 
@@ -55,4 +54,31 @@ p {
     background-color: var(--thr-bg) !important;
 }
 
-/*Add your code after this*/
+
+
+
+.about {
+    background-color: var(--sec-bg);
+}
+
+.projects {
+    background-color: var(--thr-bg);
+}
+
+.contact { 
+    background-color: var(--pop-up);
+}
+
+.contact, .projects, .about {
+    display: inline-block;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid var(--btn);
+    border-radius: 10 px;
+}
+
+.col {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
