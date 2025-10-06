@@ -55,4 +55,32 @@ p {
     background-color: var(--thr-bg) !important;
 }
 
-/*Add your code after this*/
+.about {
+    background-color: #e3f2fd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10 px;
+    color: #1a237e;
+    font-family: 'Arial' sans-serif;
+}
+
+.projecs {
+    background-color: #ffe0b2;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10 px;
+    color: #665800;
+    font-family: 'Arial' sans-serif;
+}
+
+.contact { 
+    background-color: #ffe0b2;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10 px;
+    color: #bf360c;
+    font-family: 'Arial' sans-serif;
+}
