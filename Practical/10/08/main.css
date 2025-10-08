@@ -55,60 +55,41 @@ p {
     background-color: var(--thr-bg) !important;
 }
 
+/*Figures*/
+.parallelogram {
+	width: 100px;
+	height: 50px;
+	transform: skew(20deg);
+	background: var(--btn);
+}
 
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 50px solid var(--btn);
+}
 
+.trapezoid {
+	border-bottom: 50px solid var(--btn);
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	height: 0;
+	width: 125px;
+}
 
+.circle {
+    height: 50px;
+    width: 50px;
+    background-color: var(--btn);
+    border-radius: 50%;
+}
 
+.oval {
+    height: 50px;
+    width: 100px;
+    background-color: var(--btn);
+    border-radius: 50%;
+}
 
-
-
-
-
-
-
-
-
-
-/*
-* `A B` — нащадок. Вибирає всі `B` всередині `A`.
-
-  ```css
-  div p { color: green; }
-  ```
-
-* `A > B` — прямий дочірній елемент.
-
-  ```css
-  ul > li { list-style: none; }
-  ```
-
-* `:first-child` / `:last-child` — перший або останній дочірній елемент.
-
-  ```css
-  li:first-child { font-weight: bold; }
-  ```
-
-* `:nth-child(n)` — вибір за порядковим номером.
-
-  ```css
-  li:nth-child(2) { color: red; }
-  ```
-
-* `:not(selector)` — вибір всіх, крім певних.
-
-  ```css
-  p:not(.special) { color: black; }
-  ```
-
-* `:disabled` / `:enabled` — стан інпутів.
-
-  ```css
-  input:disabled { background: #ccc; }
-  ```
-
-* `:valid` / `:invalid` — перевірка форми.
-
-  ```css
-  input:invalid { border: 2px solid red; }
-  ```
-*/
