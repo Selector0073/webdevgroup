@@ -1,9 +1,0 @@
-{
-    "name": "",                                     // Повна назва додатку, відображається у магазинах чи при запуску
-    "short_name": "",                               // Коротка назва, яка вміщується на домашньому екрані
-    "description": "",                              // Опис додатку
-    "display": "standalone",
-    "background_color": "#1d2a35",
-    "theme_color": "#1d2a35",
-    "orientation": "portrait"
-}
