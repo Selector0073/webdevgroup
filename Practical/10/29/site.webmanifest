@@ -1,0 +1,9 @@
+{
+    "name": "Блог про подорожі",
+    "short_name": "Блог про подорожі",
+    "description": "Блог про подорожі",
+    "display": "standalone",
+    "background_color": "#1d2a35",
+    "theme_color": "#1d2a35",
+    "orientation": "portrait"
+}
