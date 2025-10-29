@@ -41,8 +41,8 @@
                         { "@type": "ListItem", "position": 1, "name": "Головна", "item": "https://selector0073webdevgroup.netlify.app/" },
                         { "@type": "ListItem", "position": 2, "name": "Статті", "item": "https://selector0073webdevgroup.netlify.app/blog" },
                         { "@type": "ListItem", "position": 3, "name": "Про автора", "item": "https://selector0073webdevgroup.netlify.app/about" },
-                        { "@type": "ListItem", "position": 3, "name": "Контакти", "item": "https://selector0073webdevgroup.netlify.app/contacts" }
-                        ]
+                        { "@type": "ListItem", "position": 4, "name": "Контакти", "item": "https://selector0073webdevgroup.netlify.app/contacts" }
+                    ]
                 }
             ]
         }
@@ -55,7 +55,11 @@
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" 
         crossorigin="anonymous">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
+        crossorigin="anonymous">
+
     <link rel="stylesheet" href="main.css">
 
     <meta name="mobile-web-app-capable" content="yes">
@@ -70,7 +74,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="inedex.html">Home</a>
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         <a class="nav-link" href="blog.html">Статті</a>
                         <a class="nav-link" href="about.html">Про нас</a>
                         <a class="nav-link" href="contacts.html">Контакти</a>
@@ -79,10 +83,23 @@
             </div>
         </nav>
     </header>
+
     <main>
-        <!--Сайт-->
+        <section class="subscribe">
+            <h3>Підпишіться на оновлення блогу</h3>
+            <form>
+                <input type="email" placeholder="Введіть ваш email" required>
+                <button type="submit">Підписатися</button>
+            </form>
+        </section>
     </main>
-    <footer>Selector0073 | Каріна Батура | Катя Каташинська</footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    <footer>
+        Selector0073 | Каріна Батура | Катя Каташинська
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" 
+            crossorigin="anonymous"></script>
 </body>
 </html>

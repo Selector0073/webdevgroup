@@ -5,7 +5,10 @@
     --btn: #059862;
     --text: #b8dddd;
     --pop-up: #2d3748;
+<<<<<<< HEAD
     --figure: rgba(5, 152, 98, 0.2);
+=======
+>>>>>>> pr9
 }
 
 html, body {
@@ -56,6 +59,7 @@ p {
     background-color: var(--thr-bg) !important;
 }
 
+<<<<<<< HEAD
 /*Figures*/
 .parallelogram, .triangle-down, .trapezoid, .circle, .oval {
     content: '';
@@ -112,6 +116,8 @@ p {
 
 
 /*Batura*/
+=======
+>>>>>>> pr9
 .features {
     position: relative;
     padding: 50px 15px;
@@ -119,6 +125,21 @@ p {
     overflow: hidden;
 }
 
+<<<<<<< HEAD
+=======
+.features::before {
+    content: '';
+    position: absolute;
+    top: 10%;
+    left: -50px;
+    width: 150px;
+    height: 150px;
+    background-color: rgba(5, 152, 98, 0.2);
+    border-radius: 50%;
+    z-index: 0;
+}
+
+>>>>>>> pr9
 .features .feature-item {
     position: relative;
     background-color: var(--thr-bg);
@@ -146,7 +167,11 @@ p {
     background-size: cover;
     background-position: center;
     opacity: 0.1;
+<<<<<<< HEAD
     z-index: 1;
+=======
+    z-index: 0;
+>>>>>>> pr9
 }
 
 .team-members {
@@ -176,6 +201,7 @@ p {
     border-radius: 50%;
     margin-bottom: 10px;
 }
+<<<<<<< HEAD
 
 
 
@@ -188,3 +214,5 @@ p {
     width: 100%;
     height: 400px;
 }
+=======
+>>>>>>> pr9

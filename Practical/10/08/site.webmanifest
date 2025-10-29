@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "name": "Сайт з великими фоновими блоками",
     "short_name": "Сайт з фоновими блоками",
@@ -7,3 +8,14 @@
     "theme_color": "#1d2a35",
     "orientation": "portrait"
 }
+=======
+{
+    "name": "Сайт з великими фоновими блоками",
+    "short_name": "Сайт з фоновими блоками",
+    "description": "Сайт з великими фоновими блоками",
+    "display": "standalone",
+    "background_color": "#1d2a35",
+    "theme_color": "#1d2a35",
+    "orientation": "portrait"
+}
+>>>>>>> pr9
